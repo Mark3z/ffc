@@ -1,0 +1,25 @@
+body {
+    font-family: 'Arima Madurai', cursive;
+    color: #050601;
+    background: url(sfondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.divider {
+    width: 600px;
+    border: 1px solid #050601;
+}
+
+h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+blockquote {
+    background-color: rgba(212, 212, 212, 0.3);
+    border-radius: 25px;
+}
