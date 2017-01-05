@@ -22,4 +22,5 @@ h1 {
 blockquote {
     background-color: rgba(212, 212, 212, 0.3);
     border-radius: 25px;
+    color: #eee;
 }
