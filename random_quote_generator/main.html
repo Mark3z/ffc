@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,13 +16,24 @@
         <h1>Random quote generator</h1>
         <h3>The site will generate a random quote from some of my favourite ones. I hope you'd like them too.</h3>
         <hr class="divider">
-        <blockquote>
-            <p id="quote"></p>
-            <cite id="author"></cite>
-        </blockquote>
-        <button class="btn btn-success new-quote">New quote</button>
-        <button class="btn btn-primary" id="tweet"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</button>
+        <div>
+            <blockquote>
+                <p id="quote"></p>
+                <cite id="author"></cite>
+            </blockquote>
+            <button class="btn btn-success new-quote">New quote</button>
+            <button class="btn btn-primary" id="tweet"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</button>
+        </div>
     </div>
+    <footer class="footer">
+      <div class="container social">
+        <a href="https://github.com/Mark3z" target="_blank" title="Github"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        <a href="https://it.linkedin.com/in/markonikolajevic" target="_blank" title="LinkedIn"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+        <a href="https://www.codecademy.com/Mark3z" target="_blank" title="Codecademy"><i class="fa fa-code fa-2x" aria-hidden="true"></i></a>
+        <br>
+        <span>&copy; Marko Nikolajević</span>
+      </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </body>
