@@ -33,7 +33,7 @@ function setData(data, fahrenheit) {
 
     var iconSource = "http://openweathermap.org/img/w/" + icon + ".png"; // display weather icon from the site
     $("#weather-icon").html('<img src="' + iconSource + '">');
-    $("#change-units").html("<button class='btn btn-default'>C / F</button>"); // display button
+    $("#change-units").html("<a class='btn-floating btn-large waves-effect waves-light orange darken-3'>C / F</a>"); // display button
 }
 
 // Get the user location

@@ -9,7 +9,7 @@ I used API from [forismatic](http://forismatic.com/en/api/) to generate random q
 
 
 #### Local Weather App
-You can find the app at this [link](https://mark3z.github.io/ffc_projects/local_weather/main.html).
+You can find the app at this [link](http://codepen.io/mark3z/pen/OWQZpV/).
 I used API from [OpenWeatherMap](http://openweathermap.org/) to display climatical conditions in the user's position, API gives all weather data displayed and weather's icons. The browser find user's location using HTML geolocation API.
 Sometimes it may not work well because some browsers block _mixed content active_ from this OpenWeather's API. To resolve that you can change the http protocol from 'https' to 'http'.
 
@@ -22,4 +22,4 @@ FreeCodeCamp gave us the API for the random search. I used the API for [opensear
 
 
 #### Twitch TV JSON API
-The project is at this [link](https://mark3z.github.io/ffc_projects/twitch_tv/main.html). I used the API and jQuery to display a some Twitch's channels, their status and if they are streaming or not.
+The project is at this [link](https://mark3z.github.io/ffc_projects/twitch_tv/main.html). I used the API and jQuery to display some Twitch's channels, their status and if they are streaming or not.

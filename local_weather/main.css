@@ -2,37 +2,20 @@
     box-sizing: border-box;
 }
 
-html {
-    position: relative;
-    height: 100%;
-}
-
 body {
     font-family: 'Nunito Sans', sans-serif;
-    max-height: 100%;
+    display: flex;
+    min-width: 100vh;
+    flex-direction: column;
 }
 
-.navbar {
-    background-color: #ff5722 !important;
-    top: 0;
+main {
+    flex: 1 0 auto;
 }
 
-.navbar-brand {
-    color: #fff !important;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-
-/* Main section */
-
-.main-section {
-    margin-top: 65px;
-    padding: 50px 120px;
-}
-
-#locatiom {
-    font-size: 25px;
+#location {
+    padding-top: 30px;
+    font-size: 30px;
 }
 
 #temp {
@@ -40,50 +23,6 @@ body {
     font-weight: lighter;
 }
 
-.btn-default {
-    background-color: #e64a19;
-    color: #fff;
-    border-radius: 50px;
-    height: 50px;
-    font-size: 11px;
-    font-weight: 400;
-}
-
-.btn-default:hover {
-    background-color: #dd2c00;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-
-/* Footer */
-
-footer {
-    background-color: #ff5722;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 60px;
-}
-
-.left-footer, .right-footer {
-    vertical-align: middle;
-    padding-top: 15px;
-    font-size: 13px;
-}
-
-.left-footer {
-    float: left;
-    padding-left: 25px;
-    color: #fff;
-}
-
-.right-footer {
-    float: right;
-    padding-right: 25px;
-}
-
-.right-footer a {
-    color: #fff;
+#change-units {
+    padding-bottom: 30px;
 }
